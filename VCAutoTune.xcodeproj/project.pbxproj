@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B813B59B1864F6DD00C07DE8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B813B59C1864F6DD00C07DE8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B813B59D1864F6F000C07DE8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B813B59E1864F75400C07DE8 /* tune.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tune.py; sourceTree = "<group>"; };
+		B813B59F1864F77800C07DE8 /* mapper.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = mapper.py; sourceTree = "<group>"; };
+		B813B5A01864F78300C07DE8 /* reducer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = reducer.py; sourceTree = "<group>"; };
+		B813B5A31864F86C00C07DE8 /* pyvc.pth */ = {isa = PBXFileReference; lastKnownFileType = text; name = pyvc.pth; path = local/pyvc.pth; sourceTree = "<group>"; };
+		B86F68EA187C91D200792377 /* mapper.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = mapper.py; path = ../Hadoop/mapper.py; sourceTree = "<group>"; };
+		B86F68EB187C91D200792377 /* reducer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = reducer.py; path = ../Hadoop/reducer.py; sourceTree = "<group>"; };
+		B86F68EC187C937800792377 /* sandbox.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = sandbox.py; path = local/sandbox.py; sourceTree = "<group>"; };
+		B86F68EE187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-0.txt"; sourceTree = "<group>"; };
+		B86F68EF187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-1.txt"; sourceTree = "<group>"; };
+		B86F68F0187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-10.txt"; sourceTree = "<group>"; };
+		B86F68F1187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-2.txt"; sourceTree = "<group>"; };
+		B86F68F2187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-3.txt"; sourceTree = "<group>"; };
+		B86F68F3187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-4.txt"; sourceTree = "<group>"; };
+		B86F68F4187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-5.txt"; sourceTree = "<group>"; };
+		B86F68F5187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-6.txt"; sourceTree = "<group>"; };
+		B86F68F6187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-7.txt"; sourceTree = "<group>"; };
+		B86F68F7187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-8.txt"; sourceTree = "<group>"; };
+		B86F68F8187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-0_st-9.txt"; sourceTree = "<group>"; };
+		B86F68F9187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-0.txt"; sourceTree = "<group>"; };
+		B86F68FA187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-1.txt"; sourceTree = "<group>"; };
+		B86F68FB187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-10.txt"; sourceTree = "<group>"; };
+		B86F68FC187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-2.txt"; sourceTree = "<group>"; };
+		B86F68FD187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-3.txt"; sourceTree = "<group>"; };
+		B86F68FE187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-4.txt"; sourceTree = "<group>"; };
+		B86F68FF187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-5.txt"; sourceTree = "<group>"; };
+		B86F6900187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-6.txt"; sourceTree = "<group>"; };
+		B86F6901187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-7.txt"; sourceTree = "<group>"; };
+		B86F6902187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-8.txt"; sourceTree = "<group>"; };
+		B86F6903187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-1_st-9.txt"; sourceTree = "<group>"; };
+		B86F6904187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-0.txt"; sourceTree = "<group>"; };
+		B86F6905187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-1.txt"; sourceTree = "<group>"; };
+		B86F6906187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-10.txt"; sourceTree = "<group>"; };
+		B86F6907187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-2.txt"; sourceTree = "<group>"; };
+		B86F6908187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-3.txt"; sourceTree = "<group>"; };
+		B86F6909187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-4.txt"; sourceTree = "<group>"; };
+		B86F690A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-5.txt"; sourceTree = "<group>"; };
+		B86F690B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-6.txt"; sourceTree = "<group>"; };
+		B86F690C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-7.txt"; sourceTree = "<group>"; };
+		B86F690D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-8.txt"; sourceTree = "<group>"; };
+		B86F690E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-2_st-9.txt"; sourceTree = "<group>"; };
+		B86F690F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-0.txt"; sourceTree = "<group>"; };
+		B86F6910187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-1.txt"; sourceTree = "<group>"; };
+		B86F6911187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-10.txt"; sourceTree = "<group>"; };
+		B86F6912187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-2.txt"; sourceTree = "<group>"; };
+		B86F6913187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-3.txt"; sourceTree = "<group>"; };
+		B86F6914187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-4.txt"; sourceTree = "<group>"; };
+		B86F6915187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-5.txt"; sourceTree = "<group>"; };
+		B86F6916187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-6.txt"; sourceTree = "<group>"; };
+		B86F6917187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-7.txt"; sourceTree = "<group>"; };
+		B86F6918187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-8.txt"; sourceTree = "<group>"; };
+		B86F6919187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-3_st-9.txt"; sourceTree = "<group>"; };
+		B86F691A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-0.txt"; sourceTree = "<group>"; };
+		B86F691B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-1.txt"; sourceTree = "<group>"; };
+		B86F691C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-10.txt"; sourceTree = "<group>"; };
+		B86F691D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-2.txt"; sourceTree = "<group>"; };
+		B86F691E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-3.txt"; sourceTree = "<group>"; };
+		B86F691F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-4.txt"; sourceTree = "<group>"; };
+		B86F6920187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-5.txt"; sourceTree = "<group>"; };
+		B86F6921187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-6.txt"; sourceTree = "<group>"; };
+		B86F6922187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-7.txt"; sourceTree = "<group>"; };
+		B86F6923187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-8.txt"; sourceTree = "<group>"; };
+		B86F6924187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-4_st-9.txt"; sourceTree = "<group>"; };
+		B86F6925187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-0.txt"; sourceTree = "<group>"; };
+		B86F6926187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-1.txt"; sourceTree = "<group>"; };
+		B86F6927187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-10.txt"; sourceTree = "<group>"; };
+		B86F6928187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-2.txt"; sourceTree = "<group>"; };
+		B86F6929187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-3.txt"; sourceTree = "<group>"; };
+		B86F692A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-4.txt"; sourceTree = "<group>"; };
+		B86F692B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-5.txt"; sourceTree = "<group>"; };
+		B86F692C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-6.txt"; sourceTree = "<group>"; };
+		B86F692D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-7.txt"; sourceTree = "<group>"; };
+		B86F692E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-8.txt"; sourceTree = "<group>"; };
+		B86F692F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-5_st-9.txt"; sourceTree = "<group>"; };
+		B86F6930187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-0.txt"; sourceTree = "<group>"; };
+		B86F6931187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-1.txt"; sourceTree = "<group>"; };
+		B86F6932187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-10.txt"; sourceTree = "<group>"; };
+		B86F6933187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-2.txt"; sourceTree = "<group>"; };
+		B86F6934187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-3.txt"; sourceTree = "<group>"; };
+		B86F6935187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-4.txt"; sourceTree = "<group>"; };
+		B86F6936187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-5.txt"; sourceTree = "<group>"; };
+		B86F6937187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-6.txt"; sourceTree = "<group>"; };
+		B86F6938187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-7.txt"; sourceTree = "<group>"; };
+		B86F6939187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-8.txt"; sourceTree = "<group>"; };
+		B86F693A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-6_st-9.txt"; sourceTree = "<group>"; };
+		B86F693B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-0.txt"; sourceTree = "<group>"; };
+		B86F693C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-1.txt"; sourceTree = "<group>"; };
+		B86F693D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-10.txt"; sourceTree = "<group>"; };
+		B86F693E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-2.txt"; sourceTree = "<group>"; };
+		B86F693F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-3.txt"; sourceTree = "<group>"; };
+		B86F6940187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-4.txt"; sourceTree = "<group>"; };
+		B86F6941187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-5.txt"; sourceTree = "<group>"; };
+		B86F6942187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-6.txt"; sourceTree = "<group>"; };
+		B86F6943187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-7.txt"; sourceTree = "<group>"; };
+		B86F6944187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-8.txt"; sourceTree = "<group>"; };
+		B86F6945187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-7_st-9.txt"; sourceTree = "<group>"; };
+		B86F6946187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-0.txt"; sourceTree = "<group>"; };
+		B86F6947187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-1.txt"; sourceTree = "<group>"; };
+		B86F6948187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-10.txt"; sourceTree = "<group>"; };
+		B86F6949187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-2.txt"; sourceTree = "<group>"; };
+		B86F694A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-3.txt"; sourceTree = "<group>"; };
+		B86F694B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-4.txt"; sourceTree = "<group>"; };
+		B86F694C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-5.txt"; sourceTree = "<group>"; };
+		B86F694D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-6.txt"; sourceTree = "<group>"; };
+		B86F694E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-7.txt"; sourceTree = "<group>"; };
+		B86F694F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-8.txt"; sourceTree = "<group>"; };
+		B86F6950187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-8_st-9.txt"; sourceTree = "<group>"; };
+		B86F6951187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-0.txt"; sourceTree = "<group>"; };
+		B86F6952187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-1.txt"; sourceTree = "<group>"; };
+		B86F6953187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-10.txt"; sourceTree = "<group>"; };
+		B86F6954187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-2.txt"; sourceTree = "<group>"; };
+		B86F6955187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-3.txt"; sourceTree = "<group>"; };
+		B86F6956187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-4.txt"; sourceTree = "<group>"; };
+		B86F6957187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-5.txt"; sourceTree = "<group>"; };
+		B86F6958187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-6.txt"; sourceTree = "<group>"; };
+		B86F6959187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-7.txt"; sourceTree = "<group>"; };
+		B86F695A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-8.txt"; sourceTree = "<group>"; };
+		B86F695B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-0-9_st-9.txt"; sourceTree = "<group>"; };
+		B86F695C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-0.txt"; sourceTree = "<group>"; };
+		B86F695D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-1.txt"; sourceTree = "<group>"; };
+		B86F695E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-10.txt"; sourceTree = "<group>"; };
+		B86F695F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-2.txt"; sourceTree = "<group>"; };
+		B86F6960187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-3.txt"; sourceTree = "<group>"; };
+		B86F6961187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-4.txt"; sourceTree = "<group>"; };
+		B86F6962187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-5.txt"; sourceTree = "<group>"; };
+		B86F6963187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-6.txt"; sourceTree = "<group>"; };
+		B86F6964187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-7.txt"; sourceTree = "<group>"; };
+		B86F6965187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-8.txt"; sourceTree = "<group>"; };
+		B86F6966187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALLCAL2_SAF-no-creep_dyn-1-0_st-9.txt"; sourceTree = "<group>"; };
+		B87F816B1868AFC600E05D65 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		B87F81701868AFC700E05D65 /* vcanalysis.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcanalysis.py; sourceTree = "<group>"; };
+		B87F81721868AFC700E05D65 /* vcevents.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcevents.py; sourceTree = "<group>"; };
+		B87F81741868AFC700E05D65 /* vcexceptions.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcexceptions.py; sourceTree = "<group>"; };
+		B87F81761868AFC700E05D65 /* vcgeometry.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcgeometry.py; sourceTree = "<group>"; };
+		B87F81781868AFC700E05D65 /* vcplots.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcplots.py; sourceTree = "<group>"; };
+		B87F817A1868AFC700E05D65 /* vcplotutils.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcplotutils.py; sourceTree = "<group>"; };
+		B87F817C1868AFC700E05D65 /* vcsimdata.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcsimdata.py; sourceTree = "<group>"; };
+		B87F817E1868AFC700E05D65 /* vcsys.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcsys.py; sourceTree = "<group>"; };
+		B87F81801868AFC700E05D65 /* vcutils.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = vcutils.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B813B59A1864F6C400C07DE8 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				B813B59D1864F6F000C07DE8 /* .gitignore */,
+				B813B59B1864F6DD00C07DE8 /* LICENSE */,
+				B813B59C1864F6DD00C07DE8 /* README.md */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		B813B5A21864F86100C07DE8 /* local */ = {
+			isa = PBXGroup;
+			children = (
+				B86F68ED187C972700792377 /* text */,
+				B813B5A31864F86C00C07DE8 /* pyvc.pth */,
+				B86F68EC187C937800792377 /* sandbox.py */,
+			);
+			name = local;
+			sourceTree = "<group>";
+		};
+		B84A42691864F31D00256E09 = {
+			isa = PBXGroup;
+			children = (
+				B86F6967187C984E00792377 /* hadoop demo */,
+				B87F816A1868AFC600E05D65 /* pyvc */,
+				B813B5A21864F86100C07DE8 /* local */,
+				B813B5A01864F78300C07DE8 /* reducer.py */,
+				B813B59F1864F77800C07DE8 /* mapper.py */,
+				B813B59E1864F75400C07DE8 /* tune.py */,
+				B813B59A1864F6C400C07DE8 /* other */,
+			);
+			sourceTree = "<group>";
+		};
+		B86F68ED187C972700792377 /* text */ = {
+			isa = PBXGroup;
+			children = (
+				B86F68EE187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-0.txt */,
+				B86F68EF187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-1.txt */,
+				B86F68F0187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-10.txt */,
+				B86F68F1187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-2.txt */,
+				B86F68F2187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-3.txt */,
+				B86F68F3187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-4.txt */,
+				B86F68F4187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-5.txt */,
+				B86F68F5187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-6.txt */,
+				B86F68F6187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-7.txt */,
+				B86F68F7187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-8.txt */,
+				B86F68F8187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-0_st-9.txt */,
+				B86F68F9187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-0.txt */,
+				B86F68FA187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-1.txt */,
+				B86F68FB187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-10.txt */,
+				B86F68FC187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-2.txt */,
+				B86F68FD187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-3.txt */,
+				B86F68FE187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-4.txt */,
+				B86F68FF187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-5.txt */,
+				B86F6900187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-6.txt */,
+				B86F6901187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-7.txt */,
+				B86F6902187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-8.txt */,
+				B86F6903187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-1_st-9.txt */,
+				B86F6904187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-0.txt */,
+				B86F6905187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-1.txt */,
+				B86F6906187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-10.txt */,
+				B86F6907187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-2.txt */,
+				B86F6908187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-3.txt */,
+				B86F6909187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-4.txt */,
+				B86F690A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-5.txt */,
+				B86F690B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-6.txt */,
+				B86F690C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-7.txt */,
+				B86F690D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-8.txt */,
+				B86F690E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-2_st-9.txt */,
+				B86F690F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-0.txt */,
+				B86F6910187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-1.txt */,
+				B86F6911187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-10.txt */,
+				B86F6912187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-2.txt */,
+				B86F6913187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-3.txt */,
+				B86F6914187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-4.txt */,
+				B86F6915187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-5.txt */,
+				B86F6916187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-6.txt */,
+				B86F6917187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-7.txt */,
+				B86F6918187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-8.txt */,
+				B86F6919187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-3_st-9.txt */,
+				B86F691A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-0.txt */,
+				B86F691B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-1.txt */,
+				B86F691C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-10.txt */,
+				B86F691D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-2.txt */,
+				B86F691E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-3.txt */,
+				B86F691F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-4.txt */,
+				B86F6920187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-5.txt */,
+				B86F6921187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-6.txt */,
+				B86F6922187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-7.txt */,
+				B86F6923187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-8.txt */,
+				B86F6924187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-4_st-9.txt */,
+				B86F6925187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-0.txt */,
+				B86F6926187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-1.txt */,
+				B86F6927187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-10.txt */,
+				B86F6928187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-2.txt */,
+				B86F6929187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-3.txt */,
+				B86F692A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-4.txt */,
+				B86F692B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-5.txt */,
+				B86F692C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-6.txt */,
+				B86F692D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-7.txt */,
+				B86F692E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-8.txt */,
+				B86F692F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-5_st-9.txt */,
+				B86F6930187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-0.txt */,
+				B86F6931187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-1.txt */,
+				B86F6932187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-10.txt */,
+				B86F6933187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-2.txt */,
+				B86F6934187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-3.txt */,
+				B86F6935187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-4.txt */,
+				B86F6936187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-5.txt */,
+				B86F6937187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-6.txt */,
+				B86F6938187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-7.txt */,
+				B86F6939187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-8.txt */,
+				B86F693A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-6_st-9.txt */,
+				B86F693B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-0.txt */,
+				B86F693C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-1.txt */,
+				B86F693D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-10.txt */,
+				B86F693E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-2.txt */,
+				B86F693F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-3.txt */,
+				B86F6940187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-4.txt */,
+				B86F6941187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-5.txt */,
+				B86F6942187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-6.txt */,
+				B86F6943187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-7.txt */,
+				B86F6944187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-8.txt */,
+				B86F6945187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-7_st-9.txt */,
+				B86F6946187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-0.txt */,
+				B86F6947187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-1.txt */,
+				B86F6948187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-10.txt */,
+				B86F6949187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-2.txt */,
+				B86F694A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-3.txt */,
+				B86F694B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-4.txt */,
+				B86F694C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-5.txt */,
+				B86F694D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-6.txt */,
+				B86F694E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-7.txt */,
+				B86F694F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-8.txt */,
+				B86F6950187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-8_st-9.txt */,
+				B86F6951187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-0.txt */,
+				B86F6952187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-1.txt */,
+				B86F6953187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-10.txt */,
+				B86F6954187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-2.txt */,
+				B86F6955187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-3.txt */,
+				B86F6956187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-4.txt */,
+				B86F6957187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-5.txt */,
+				B86F6958187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-6.txt */,
+				B86F6959187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-7.txt */,
+				B86F695A187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-8.txt */,
+				B86F695B187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-0-9_st-9.txt */,
+				B86F695C187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-0.txt */,
+				B86F695D187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-1.txt */,
+				B86F695E187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-10.txt */,
+				B86F695F187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-2.txt */,
+				B86F6960187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-3.txt */,
+				B86F6961187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-4.txt */,
+				B86F6962187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-5.txt */,
+				B86F6963187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-6.txt */,
+				B86F6964187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-7.txt */,
+				B86F6965187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-8.txt */,
+				B86F6966187C972700792377 /* ALLCAL2_SAF-no-creep_dyn-1-0_st-9.txt */,
+			);
+			name = text;
+			path = local/text;
+			sourceTree = "<group>";
+		};
+		B86F6967187C984E00792377 /* hadoop demo */ = {
+			isa = PBXGroup;
+			children = (
+				B86F68EA187C91D200792377 /* mapper.py */,
+				B86F68EB187C91D200792377 /* reducer.py */,
+			);
+			name = "hadoop demo";
+			sourceTree = "<group>";
+		};
+		B87F816A1868AFC600E05D65 /* pyvc */ = {
+			isa = PBXGroup;
+			children = (
+				B87F816B1868AFC600E05D65 /* __init__.py */,
+				B87F81701868AFC700E05D65 /* vcanalysis.py */,
+				B87F81721868AFC700E05D65 /* vcevents.py */,
+				B87F81741868AFC700E05D65 /* vcexceptions.py */,
+				B87F81761868AFC700E05D65 /* vcgeometry.py */,
+				B87F81781868AFC700E05D65 /* vcplots.py */,
+				B87F817A1868AFC700E05D65 /* vcplotutils.py */,
+				B87F817C1868AFC700E05D65 /* vcsimdata.py */,
+				B87F817E1868AFC700E05D65 /* vcsys.py */,
+				B87F81801868AFC700E05D65 /* vcutils.py */,
+			);
+			name = pyvc;
+			path = ../PyVC/pyvc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B84A426A1864F31D00256E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = B84A426D1864F31D00256E09 /* Build configuration list for PBXProject "VCAutoTune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B84A42691864F31D00256E09;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B84A426E1864F31D00256E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B84A426F1864F31D00256E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84A426D1864F31D00256E09 /* Build configuration list for PBXProject "VCAutoTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84A426E1864F31D00256E09 /* Debug */,
+				B84A426F1864F31D00256E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B84A426A1864F31D00256E09 /* Project object */;
+}
